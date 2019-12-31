@@ -12,20 +12,16 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#nullable restore
 #line 1 "/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/Views/_ViewImports.cshtml"
 using Asp.netCoreMvcCrud;
 
 #line default
 #line hidden
-#nullable disable
-#nullable restore
 #line 2 "/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/Views/_ViewImports.cshtml"
 using Asp.netCoreMvcCrud.Models;
 
 #line default
 #line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"30939bb6b7760024d21741a06313355f71556003", @"/Views/Employee/Delete.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"44d1fb70d6028051c94b3901c645dfb40b98625a", @"/Views/_ViewImports.cshtml")]
     public class Views_Employee_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>

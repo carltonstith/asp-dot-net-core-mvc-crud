@@ -12,20 +12,16 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#nullable restore
 #line 1 "/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/Views/_ViewImports.cshtml"
 using Asp.netCoreMvcCrud;
 
 #line default
 #line hidden
-#nullable disable
-#nullable restore
 #line 2 "/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/Views/_ViewImports.cshtml"
 using Asp.netCoreMvcCrud.Models;
 
 #line default
 #line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"44d1fb70d6028051c94b3901c645dfb40b98625a", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
@@ -33,14 +29,12 @@ using Asp.netCoreMvcCrud.Models;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-#nullable restore
 #line 1 "/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/Views/_ViewStart.cshtml"
   
     Layout = "_Layout";
 
 #line default
 #line hidden
-#nullable disable
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
