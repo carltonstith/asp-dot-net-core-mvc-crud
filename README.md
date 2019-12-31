@@ -57,6 +57,7 @@ Give an example
 ## Deployment
 
 Create a Azure account and publish the app from Visual Studio.
+Currently unable to deploy to Azure using .Net Core 3.1. I will keep an eye on this [deployment issue](https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1/) + [github issue](https://github.com/Azure/app-service-announcements-discussions/issues/118) and update when the SDK becomes available.
 
 ## Built With
 
@@ -68,17 +69,15 @@ Create a Azure account and publish the app from Visual Studio.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read feel free to submit a pull request
 
 ## Authors
 
 * **Carlton Stith** - [@carltonstith](https://twitter.com/carltonstith)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
