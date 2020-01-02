@@ -1,0 +1,39 @@
+services:
+  asp.netcoremvccrud:
+    build:
+      context: /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud
+      dockerfile: ./Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Asp.netCoreMvcCrud
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44357'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: asp:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 10000
+      target: 80
+    - published: 44357
+      target: 443
+    tty: true
+    volumes:
+    - /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud:/app:rw
+    - /Users/carltonstith/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/carltonstith/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/carltonstith/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/carltonstith/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud:/src:rw
+version: '3.4'

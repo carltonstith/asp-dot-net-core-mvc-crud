@@ -1,0 +1,17 @@
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Asp.netCoreMvcCrud.Views.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Asp.netCoreMvcCrud.Views.pdb
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/appsettings.Development.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/appsettings.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Properties/launchSettings.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Asp.netCoreMvcCrud
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Asp.netCoreMvcCrud.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.EntityFrameworkCore.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.Bcl.HashCode.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Microsoft.Data.SqlClient.dll
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/Asp.netCoreMvcCrud.pdb
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Debug/docker-compose.dcprojAssemblyReference.cache
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Debug/docker-compose.dcproj.CopyComplete

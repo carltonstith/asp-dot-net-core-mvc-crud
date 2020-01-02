@@ -1,16 +1,16 @@
 # ASP.NET Core MVC - Employee CRUD App
 
-This is a simple CRUD application using .Net Core as a framework, Entity Framework Core for the ORM, SQL Server for a relational database, and Azure App Services for deployment.
+This is a simple CRUD application using .Net Core as a framework, Entity Framework Core for the ORM, Docker, a SQL Server instance for a relational database, and Azure App Services for deployment.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Clone the repo. The repo will contain a dotnet core 3.1.1 solution, a docker file to run the container. Run the docker file, run sql server
+Clone the repo. The repo will contain a project built in .NET core 3.1. You will also need to run a SQL Server instance within a Docker container for the DB.
 
 ### Prerequisites
 
-You're going to need Visual Studio, Docker and SQL Server.
+You're going to need Visual Studio for Mac, Docker and SQL Server.
 
 ```
 Give examples
@@ -57,7 +57,7 @@ Give an example
 ## Deployment
 
 Create a Azure account and publish the app from Visual Studio.
-Currently unable to deploy to Azure using .Net Core 3.1. I will keep an eye on this [deployment issue](https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1/) + [github issue](https://github.com/Azure/app-service-announcements-discussions/issues/118) and update when the SDK becomes available.
+Currently unable to deploy to Azure App Service using .Net Core 3.1. I will keep an eye on this [deployment issue](https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1/) + [github issue](https://github.com/Azure/app-service-announcements-discussions/issues/118) and update when the SDK becomes available.
 
 ## Built With
 

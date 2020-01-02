@@ -1,0 +1,19 @@
+services:
+  asp.netcoremvccrud:
+    build:
+      context: /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud
+      dockerfile: ./Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44357'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: asp
+    ports:
+    - published: 10000
+      target: 80
+    - published: 44357
+      target: 443
+    volumes:
+    - /Users/carltonstith/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/carltonstith/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
