@@ -1,11 +1,14 @@
-﻿<Properties StartupConfiguration="{AF1743D0-4904-4F65-A2BB-E356FB6710F8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+﻿<Properties StartupConfiguration="{4450863D-6966-4F98-A529-EF4AD6EDE854}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
     <Files>
-      <File FileName="Models/EmployeeContext.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
-      <File FileName="Models/Employee.cs" Line="18" Column="31" NotebookId="1" />
-      <File FileName="appsettings.json" Line="1" Column="1" NotebookId="1" />
-      <File FileName="README.md" Line="88" Column="1" NotebookId="1" />
+      <File FileName="Startup.cs" Line="40" Column="126" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Views/Employee/AddorEdit.cshtml" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="1" Column="1" />
+      <File FileName="Models/Employee.cs" Line="25" Column="41" NotebookId="1" />
+      <File FileName="appsettings.json" Line="11" Column="147" NotebookId="1" />
+      <File FileName="README.md" Line="13" Column="43" NotebookId="1" />
+      <File FileName="Controllers/EmployeeController.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,12 +19,15 @@
                 <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Employee" expanded="True" />
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
+            <Node name="docker-compose" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -29,6 +35,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -19,6 +19,13 @@ namespace Asp.netCoreMvcCrud.Models
         public string EmpCode { get; set; }
 
         [Column(TypeName = "varchar(100)")]
+        public string Department { get; set; }
+
+        [Column(TypeName = "varchar(100)")]
+        [DisplayName("Department Manager")]
+        public string DepartmentManager { get; set; }
+
+        [Column(TypeName = "varchar(100)")]
         public string Position { get; set; }
 
         [Column(TypeName = "varchar(100)")]

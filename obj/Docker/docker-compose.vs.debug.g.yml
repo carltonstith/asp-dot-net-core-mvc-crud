@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  asp.netcoremvccrud:
+    image: asp:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Asp.netCoreMvcCrud"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+    volumes:
+      - /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud:/app
+      - /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud:/src
+      - /Users/carltonstith/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/carltonstith/.nuget/packages/:/root/.nuget/packages:ro
+      - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
