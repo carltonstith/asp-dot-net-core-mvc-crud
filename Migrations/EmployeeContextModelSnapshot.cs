@@ -25,6 +25,9 @@ namespace Asp.netCoreMvcCrud.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Department")
+                        .HasColumnType("varchar(100)");
+
                     b.Property<string>("EmpCode")
                         .HasColumnType("varchar(10)");
 
