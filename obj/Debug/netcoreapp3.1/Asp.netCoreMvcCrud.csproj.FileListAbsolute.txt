@@ -1,7 +1,6 @@
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
-/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud.deps.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud.runtimeconfig.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Debug/netcoreapp3.1/Asp.netCoreMvcCrud.runtimeconfig.dev.json

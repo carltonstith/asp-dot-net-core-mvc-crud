@@ -11,8 +11,13 @@ namespace Asp.netCoreMvcCrud.Models
 
         [Column(TypeName = "nvarchar(250)")]
         [Required(ErrorMessage = "This field is required")]
-        [DisplayName("Full Name")]
-        public string FullName { get; set; }
+        [DisplayName("First Name")]
+        public string FirstName { get; set; }
+
+        [Column(TypeName = "nvarchar(250)")]
+        [Required(ErrorMessage = "This field is required")]
+        [DisplayName("Last Name")]
+        public string LastName { get; set; }
 
         [Column(TypeName = "varchar(10)")]
         [DisplayName("Employee Code")]
@@ -23,6 +28,9 @@ namespace Asp.netCoreMvcCrud.Models
 
 		[Column(TypeName = "varchar(100)")]
         public string Position { get; set; }
+
+        [Column(TypeName = "varchar(100)")]
+        public string Email { get; set; }
 
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Office Location")]

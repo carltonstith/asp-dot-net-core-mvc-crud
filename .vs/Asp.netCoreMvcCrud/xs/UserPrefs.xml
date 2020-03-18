@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{AF1743D0-4904-4F65-A2BB-E356FB6710F8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Employee/Index.cshtml">
     <Files>
-      <File FileName="Controllers/EmployeeController.cs" Line="46" Column="36" />
-      <File FileName="Views/Employee/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Models/EmployeeContext.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
-      <File FileName="Models/Employee.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="30" Column="30" />
+      <File FileName="Controllers/EmployeeController.cs" Line="44" Column="122" />
+      <File FileName="Models/Employee.cs" Line="33" Column="28" />
+      <File FileName="Views/Employee/AddorEdit.cshtml" Line="43" Column="44" />
+      <File FileName="Views/Employee/Index.cshtml" Line="7" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,15 +13,13 @@
           <Node name="Asp.netCoreMvcCrud" expanded="True">
             <Node name="Asp.netCoreMvcCrud" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Employee" expanded="True" />
-                <Node name="Home" expanded="True" />
+                <Node name="Employee" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -41,7 +41,7 @@ namespace Asp.netCoreMvcCrud.Controllers
         // POST: Employee/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddorEdit([Bind("EmployeeId,FullName,Department,EmpCode,Position,OfficeLocation")] Employee employee)
+        public async Task<IActionResult> AddorEdit([Bind("EmployeeId,FirstName,LastName,Department,EmpCode,Position,Email,OfficeLocation")] Employee employee)
         {
             if (ModelState.IsValid)
             {
