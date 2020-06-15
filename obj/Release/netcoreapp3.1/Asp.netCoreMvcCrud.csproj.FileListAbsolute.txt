@@ -1,7 +1,6 @@
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/appsettings.Development.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/appsettings.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/Properties/launchSettings.json
-/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/Asp.netCoreMvcCrud
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/Asp.netCoreMvcCrud.deps.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/Asp.netCoreMvcCrud.runtimeconfig.json
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/Asp.netCoreMvcCrud.runtimeconfig.dev.json
@@ -56,3 +55,10 @@
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Release/netcoreapp3.1/Asp.netCoreMvcCrud.csproj.CopyComplete
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Release/netcoreapp3.1/Asp.netCoreMvcCrud.dll
 /Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Release/netcoreapp3.1/Asp.netCoreMvcCrud.pdb
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/publish/appsettings.Development.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/publish/Asp.netCoreMvcCrud.runtimeconfig.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/publish/web.config
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/publish/appsettings.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/bin/Release/netcoreapp3.1/publish/Asp.netCoreMvcCrud.deps.json
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Release/netcoreapp3.1/Asp.netCoreMvcCrud.csproj.CoreCompileInputs.cache
+/Users/carltonstith/Documents/code/Asp.netCoreMvcCrud/obj/Release/netcoreapp3.1/Asp.netCoreMvcCrud.genruntimeconfig.cache

@@ -3,14 +3,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Asp.netCoreMvcCrud</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <title>@ViewData["Title"] - Fictional Company</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" /> *@
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://kit.fontawesome.com/77623b1dd4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" asp-controller="Home" asp-action="Index" class="brand-logo">Fictional Company</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a asp-controller="Employee" asp-action="Index">Employee</a></li>
+                <li><a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a asp-controller="Employee" asp-action="Index">Employee</a></li>
+                <li><a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Asp.netCoreMvcCrud</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -31,7 +49,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> *@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -41,11 +59,13 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - Asp.netCoreMvcCrud - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - Fictional Company - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>

@@ -2,6 +2,8 @@
 
 This is a simple CRUD application using .Net Core as a framework, Entity Framework Core for the ORM, SQL Server for a relational database, and Azure App Services for deployment.
 
+![employeeCRUD](https://user-images.githubusercontent.com/5256251/84701614-4e43be00-af23-11ea-9cb9-a61396ea6cd1.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
