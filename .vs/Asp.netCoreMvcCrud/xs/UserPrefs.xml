@@ -11,18 +11,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Asp.netCoreMvcCrud" expanded="True">
-            <Node name="Asp.netCoreMvcCrud" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Employee" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="README.md" selected="True" />
-            </Node>
-          </Node>
+          <Node />
         </State>
       </Pad>
     </Pads>
